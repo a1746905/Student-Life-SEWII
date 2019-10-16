@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <html>
   <head>
     <title>StudentLife</title>
@@ -10,10 +10,11 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <!--
+    <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar header">
-          <a class="navbar-brand" href="#"><%= link_to "StudentLife", homepage_path%></a>
+          <a class="navbar-brand" href="#"><%= link_to "Student Life", homepage_path%></a>
         </div>
         <u1 class = "nav navbar-nav">
           <li class="dropdown">
@@ -26,13 +27,65 @@
                 <li><a href="#"> empty course </a></li>
               </u1>
             </li>
-          <li><a href="#">Calendar</a></li>
-          <li><a href="#">Campus Maps</a></li>
-          <li><a href="#">Ask Adelaide</a></li>
+          <p><a href="#">Calendar</a></p>
+          <p><a href="#">Campus Maps</a></p>
+          <p><a href="#">Ask Adelaide</a></p>
         </u1>
       </div>
     </nav>
+    -->
+    <!--
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">-->
+          <!-- 3 bars button goes on the left -->
+         <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
+          <a class="navbar-brand" href="a"><%= link_to "Student Life", homepage_path%></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <u1 class="nav navbar-nav">
+            <li><%= link_to "Group: Science", science_path %></li>
+          </u1>
+        </div>
+      </div>
+    </nav>
+    -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><%= link_to "Student Life", homepage_path%></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Courses
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Computer Systems</a>
+          <a class="dropdown-item" href="#">Algorithm and Data Structure Analysis</a>
+          <a class="dropdown-item" href="#">Software Engineering Workshop II</a>
+          <a class="dropdown-item" href="#">Engineering Software as Services</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Calendar<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Campus Maps</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Ask Adelaide</a>
+      </li>
+    </ul>
+  </div>
+</nav>
     <%= yield %>
   </body>
 </html>
