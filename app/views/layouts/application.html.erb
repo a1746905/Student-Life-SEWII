@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>StudentLife</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar header">
+          <a class="navbar-brand" href="#"><%= link_to "StudentLife", homepage_path%></a>
+        </div>
+        <u1 class = "nav navbar-nav">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Courses
+              <span class="caret"></span></a>
+              <u1 class="dropdown-menu">
+                <li><a href="#">Software Engineering Workshop II</a></li>
+                <li><a href="#">Algorithm and Data Structure Analysis</a></li>
+                <li><a href="#">Computer Systems</a></li>
+                <li><a href="#"> empty course </a></li>
+              </u1>
+            </li>
+          <li><a href="#">Calendar</a></li>
+          <li><a href="#">Campus Maps</a></li>
+          <li><a href="#">Ask Adelaide</a></li>
+        </u1>
+      </div>
+    </nav>
+
+    <%= yield %>
+  </body>
+</html>
