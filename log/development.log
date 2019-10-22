@@ -2824,3 +2824,18 @@ Processing by PagesController#homepage as HTML
 Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms | Allocations: 16220)
 
 
+Started GET "/" for ::1 at 2019-10-22 11:09:10 +1030
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.9ms | Allocations: 457)
+Completed 200 OK in 3124ms (Views: 3109.9ms | ActiveRecord: 0.0ms | Allocations: 3669443)
+
+
+Started GET "/" for ::1 at 2019-10-22 11:09:19 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 50)
+Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 15329)
+
+
