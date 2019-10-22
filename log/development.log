@@ -2839,3 +2839,624 @@ Processing by PagesController#homepage as HTML
 Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 15329)
 
 
+Started GET "/" for 127.0.0.1 at 2019-10-22 21:24:17 +1030
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 1.0ms | Allocations: 478)
+Completed 200 OK in 1836ms (Views: 1827.0ms | ActiveRecord: 0.0ms | Allocations: 2822235)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 09:58:13 +1030
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 13.5ms | Allocations: 478)
+Completed 200 OK in 1043ms (Views: 997.3ms | ActiveRecord: 0.0ms | Allocations: 1474830)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 09:58:16 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 17697)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 09:58:17 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 49)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 17686)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 09:58:17 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 49)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 17689)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 09:58:17 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.5ms | Allocations: 49)
+Completed 200 OK in 30ms (Views: 27.2ms | ActiveRecord: 0.0ms | Allocations: 17684)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 09:58:17 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 49)
+Completed 200 OK in 40ms (Views: 38.2ms | ActiveRecord: 0.0ms | Allocations: 17689)
+
+
+Started GET "/science" for 127.0.0.1 at 2019-10-23 09:58:33 +1030
+Processing by GroupsController#science as HTML
+  Rendering groups/science.html.erb within layouts/application
+  Rendered groups/science.html.erb within layouts/application (Duration: 35.0ms | Allocations: 110)
+Completed 200 OK in 49ms (Views: 47.2ms | ActiveRecord: 0.0ms | Allocations: 18328)
+
+
+Started GET "/science" for 127.0.0.1 at 2019-10-23 10:03:49 +1030
+Processing by GroupsController#science as HTML
+  Rendering groups/science.html.erb within layouts/application
+  Rendered groups/science.html.erb within layouts/application (Duration: 0.3ms | Allocations: 100)
+Completed 500 Internal Server Error in 442ms (ActiveRecord: 0.0ms | Allocations: 182809)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `coursePage_path' for #<#<Class:0x00007f1c21ce4ac0>:0x00007f1c1c04aa08>
+Did you mean?  homepage_path):
+    64:   <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    65:     <ul class="navbar-nav">
+    66:         <li class="nav-item">
+    67:           <a class="nav-link" href="#"><%= link_to "Courses", coursePage_path %></a>
+    68:         </li>
+    69:       <li class="nav-item">
+    70:         <a class="nav-link" href="#">Calendar<span class="sr-only">(current)</span></a>
+  
+app/views/layouts/application.html.erb:67
+Started GET "/science" for 127.0.0.1 at 2019-10-23 10:08:34 +1030
+  
+SyntaxError (/home/lachlan/Desktop/Student Life SEWII/config/routes.rb:10: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...ge' => 'pages#coursePage', as 'coursePage'
+...                              ^):
+  
+config/routes.rb:10: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+config/routes.rb:10: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+config/routes.rb:10: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+Started GET "/science" for 127.0.0.1 at 2019-10-23 10:08:59 +1030
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by GroupsController#science as HTML
+  Rendering groups/science.html.erb within layouts/application
+  Rendered groups/science.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 17878)
+
+
+Started GET "/coursePage" for 127.0.0.1 at 2019-10-23 10:09:01 +1030
+Processing by PagesController#coursePage as HTML
+  Rendering pages/coursePage.html.erb within layouts/application
+  Rendered pages/coursePage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 186)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 18430)
+
+
+Started GET "/sewii" for 127.0.0.1 at 2019-10-23 10:09:02 +1030
+Processing by CoursesController#sewii as HTML
+  Rendering courses/sewii.html.erb within layouts/application
+  Rendered courses/sewii.html.erb within layouts/application (Duration: 0.6ms | Allocations: 284)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 18552)
+
+
+Started GET "/topic1" for 127.0.0.1 at 2019-10-23 10:09:04 +1030
+Processing by CoursesController#topic1 as HTML
+  Rendering courses/topic1.html.erb within layouts/application
+  Rendered courses/topic1.html.erb within layouts/application (Duration: 0.6ms | Allocations: 167)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 17967)
+
+
+Started GET "/download" for 127.0.0.1 at 2019-10-23 10:09:04 +1030
+Processing by CoursesController#download as HTML
+  Rendering courses/download.html.erb within layouts/application
+  Rendered courses/download.html.erb within layouts/application (Duration: 0.7ms | Allocations: 157)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 17972)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:09:06 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.5ms | Allocations: 170)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 17969)
+
+
+Started GET "/coursePage" for 127.0.0.1 at 2019-10-23 10:09:14 +1030
+Processing by PagesController#coursePage as HTML
+  Rendering pages/coursePage.html.erb within layouts/application
+  Rendered pages/coursePage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 49)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 17709)
+
+
+Started GET "/sewii" for 127.0.0.1 at 2019-10-23 10:09:16 +1030
+Processing by CoursesController#sewii as HTML
+  Rendering courses/sewii.html.erb within layouts/application
+  Rendered courses/sewii.html.erb within layouts/application (Duration: 0.1ms | Allocations: 58)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 17747)
+
+
+Started GET "/topic1" for 127.0.0.1 at 2019-10-23 10:09:20 +1030
+Processing by CoursesController#topic1 as HTML
+  Rendering courses/topic1.html.erb within layouts/application
+  Rendered courses/topic1.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 17702)
+
+
+Started GET "/download" for 127.0.0.1 at 2019-10-23 10:09:24 +1030
+Processing by CoursesController#download as HTML
+  Rendering courses/download.html.erb within layouts/application
+  Rendered courses/download.html.erb within layouts/application (Duration: 0.2ms | Allocations: 46)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 17703)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:09:28 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 17702)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:14:03 +1030
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.5ms | Allocations: 170)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.0ms | Allocations: 19141)
+
+
+Started GET "/science" for 127.0.0.1 at 2019-10-23 10:14:05 +1030
+Processing by GroupsController#science as HTML
+  Rendering groups/science.html.erb within layouts/application
+  Rendered groups/science.html.erb within layouts/application (Duration: 0.4ms | Allocations: 169)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 18427)
+
+
+Started GET "/science_group_members" for 127.0.0.1 at 2019-10-23 10:14:06 +1030
+  
+ActionController::RoutingError (uninitialized constant GroupController
+Did you mean?  GroupsController):
+  
+activesupport (6.0.0) lib/active_support/inflector/methods.rb:282:in `const_get'
+activesupport (6.0.0) lib/active_support/inflector/methods.rb:282:in `block in constantize'
+activesupport (6.0.0) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.0) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.0) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.0) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.0) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.0) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:45:in `controller'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.0) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/science" for 127.0.0.1 at 2019-10-23 10:14:15 +1030
+Processing by GroupsController#science as HTML
+  Rendering groups/science.html.erb within layouts/application
+  Rendered groups/science.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 17704)
+
+
+Started GET "/science" for 127.0.0.1 at 2019-10-23 10:14:37 +1030
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by GroupsController#science as HTML
+  Rendering groups/science.html.erb within layouts/application
+  Rendered groups/science.html.erb within layouts/application (Duration: 0.5ms | Allocations: 166)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 18912)
+
+
+Started GET "/science_group_members" for 127.0.0.1 at 2019-10-23 10:14:38 +1030
+Processing by GroupsController#science_group_members as HTML
+  Rendering groups/science_group_members.html.erb within layouts/application
+  Rendered groups/science_group_members.html.erb within layouts/application (Duration: 0.4ms | Allocations: 179)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 17969)
+
+
+Started GET "/science" for 127.0.0.1 at 2019-10-23 10:14:40 +1030
+Processing by GroupsController#science as HTML
+  Rendering groups/science.html.erb within layouts/application
+  Rendered groups/science.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 17707)
+
+
+Started GET "/science" for 127.0.0.1 at 2019-10-23 10:15:50 +1030
+Processing by GroupsController#science as HTML
+  Rendering groups/science.html.erb within layouts/application
+  Rendered groups/science.html.erb within layouts/application (Duration: 0.7ms | Allocations: 165)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 18945)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:15:51 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 175)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 18380)
+
+
+Started GET "/science" for 127.0.0.1 at 2019-10-23 10:15:55 +1030
+Processing by GroupsController#science as HTML
+  Rendering groups/science.html.erb within layouts/application
+  Rendered groups/science.html.erb within layouts/application (Duration: 0.3ms | Allocations: 53)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 17710)
+
+
+Started GET "/science_group_members" for 127.0.0.1 at 2019-10-23 10:15:56 +1030
+Processing by GroupsController#science_group_members as HTML
+  Rendering groups/science_group_members.html.erb within layouts/application
+  Rendered groups/science_group_members.html.erb within layouts/application (Duration: 0.4ms | Allocations: 179)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 17980)
+
+
+Started GET "/science" for 127.0.0.1 at 2019-10-23 10:15:58 +1030
+Processing by GroupsController#science as HTML
+  Rendering groups/science.html.erb within layouts/application
+  Rendered groups/science.html.erb within layouts/application (Duration: 0.4ms | Allocations: 49)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 17709)
+
+
+Started GET "/science_group_members" for 127.0.0.1 at 2019-10-23 10:16:00 +1030
+Processing by GroupsController#science_group_members as HTML
+  Rendering groups/science_group_members.html.erb within layouts/application
+  Rendered groups/science_group_members.html.erb within layouts/application (Duration: 0.2ms | Allocations: 48)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.0ms | Allocations: 17705)
+
+
+Started GET "/science" for 127.0.0.1 at 2019-10-23 10:16:01 +1030
+Processing by GroupsController#science as HTML
+  Rendering groups/science.html.erb within layouts/application
+  Rendered groups/science.html.erb within layouts/application (Duration: 0.2ms | Allocations: 48)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 17704)
+
+
+Started GET "/science_group_members" for 127.0.0.1 at 2019-10-23 10:16:02 +1030
+Processing by GroupsController#science_group_members as HTML
+  Rendering groups/science_group_members.html.erb within layouts/application
+  Rendered groups/science_group_members.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 18ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 17712)
+
+
+Started GET "/science" for 127.0.0.1 at 2019-10-23 10:16:03 +1030
+Processing by GroupsController#science as HTML
+  Rendering groups/science.html.erb within layouts/application
+  Rendered groups/science.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 17701)
+
+
+Started GET "/coursePage" for 127.0.0.1 at 2019-10-23 10:16:05 +1030
+Processing by PagesController#coursePage as HTML
+  Rendering pages/coursePage.html.erb within layouts/application
+  Rendered pages/coursePage.html.erb within layouts/application (Duration: 0.7ms | Allocations: 178)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 17978)
+
+
+Started GET "/sewii" for 127.0.0.1 at 2019-10-23 10:16:06 +1030
+Processing by CoursesController#sewii as HTML
+  Rendering courses/sewii.html.erb within layouts/application
+  Rendered courses/sewii.html.erb within layouts/application (Duration: 0.6ms | Allocations: 277)
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 18554)
+
+
+Started GET "/topic1" for 127.0.0.1 at 2019-10-23 10:16:08 +1030
+Processing by CoursesController#topic1 as HTML
+  Rendering courses/topic1.html.erb within layouts/application
+  Rendered courses/topic1.html.erb within layouts/application (Duration: 0.5ms | Allocations: 162)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 17961)
+
+
+Started GET "/download" for 127.0.0.1 at 2019-10-23 10:16:09 +1030
+Processing by CoursesController#download as HTML
+  Rendering courses/download.html.erb within layouts/application
+  Rendered courses/download.html.erb within layouts/application (Duration: 0.6ms | Allocations: 151)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 17946)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:16:11 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 54)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 17720)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:17:44 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 169)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 18948)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:17:47 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 17701)
+
+
+Started GET "/coursePage" for 127.0.0.1 at 2019-10-23 10:17:48 +1030
+Processing by PagesController#coursePage as HTML
+  Rendering pages/coursePage.html.erb within layouts/application
+  Rendered pages/coursePage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 177)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 17975)
+
+
+Started GET "/sewii" for 127.0.0.1 at 2019-10-23 10:17:49 +1030
+Processing by CoursesController#sewii as HTML
+  Rendering courses/sewii.html.erb within layouts/application
+  Rendered courses/sewii.html.erb within layouts/application (Duration: 0.7ms | Allocations: 279)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 18547)
+
+
+Started GET "/topic1" for 127.0.0.1 at 2019-10-23 10:17:50 +1030
+Processing by CoursesController#topic1 as HTML
+  Rendering courses/topic1.html.erb within layouts/application
+  Rendered courses/topic1.html.erb within layouts/application (Duration: 0.6ms | Allocations: 163)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 17972)
+
+
+Started GET "/download" for 127.0.0.1 at 2019-10-23 10:17:51 +1030
+Processing by CoursesController#download as HTML
+  Rendering courses/download.html.erb within layouts/application
+  Rendered courses/download.html.erb within layouts/application (Duration: 0.4ms | Allocations: 151)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 17950)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:17:52 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 54)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 17720)
+
+
+Started GET "/science" for 127.0.0.1 at 2019-10-23 10:17:57 +1030
+Processing by GroupsController#science as HTML
+  Rendering groups/science.html.erb within layouts/application
+  Rendered groups/science.html.erb within layouts/application (Duration: 0.4ms | Allocations: 165)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 18402)
+
+
+Started GET "/science_group_members" for 127.0.0.1 at 2019-10-23 10:17:57 +1030
+Processing by GroupsController#science_group_members as HTML
+  Rendering groups/science_group_members.html.erb within layouts/application
+  Rendered groups/science_group_members.html.erb within layouts/application (Duration: 0.7ms | Allocations: 177)
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.0ms | Allocations: 17979)
+
+
+Started GET "/science" for 127.0.0.1 at 2019-10-23 10:17:59 +1030
+Processing by GroupsController#science as HTML
+  Rendering groups/science.html.erb within layouts/application
+  Rendered groups/science.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 17702)
+
+
+Started GET "/science" for 127.0.0.1 at 2019-10-23 10:18:30 +1030
+Processing by GroupsController#science as HTML
+  Rendering groups/science.html.erb within layouts/application
+  Rendered groups/science.html.erb within layouts/application (Duration: 0.5ms | Allocations: 166)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 18952)
+
+
+Started GET "/science_group_members" for 127.0.0.1 at 2019-10-23 10:18:31 +1030
+Processing by GroupsController#science_group_members as HTML
+  Rendering groups/science_group_members.html.erb within layouts/application
+  Rendered groups/science_group_members.html.erb within layouts/application (Duration: 0.4ms | Allocations: 175)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 17966)
+
+
+Started GET "/science" for 127.0.0.1 at 2019-10-23 10:18:33 +1030
+Processing by GroupsController#science as HTML
+  Rendering groups/science.html.erb within layouts/application
+  Rendered groups/science.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 17703)
+
+
+Started GET "/science_group_members" for 127.0.0.1 at 2019-10-23 10:18:35 +1030
+Processing by GroupsController#science_group_members as HTML
+  Rendering groups/science_group_members.html.erb within layouts/application
+  Rendered groups/science_group_members.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 17705)
+
+
+Started GET "/science" for 127.0.0.1 at 2019-10-23 10:18:35 +1030
+Processing by GroupsController#science as HTML
+  Rendering groups/science.html.erb within layouts/application
+  Rendered groups/science.html.erb within layouts/application (Duration: 0.3ms | Allocations: 48)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 17702)
+
+
+Started GET "/coursePage" for 127.0.0.1 at 2019-10-23 10:18:36 +1030
+Processing by PagesController#coursePage as HTML
+  Rendering pages/coursePage.html.erb within layouts/application
+  Rendered pages/coursePage.html.erb within layouts/application (Duration: 0.5ms | Allocations: 177)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 18421)
+
+
+Started GET "/sewii" for 127.0.0.1 at 2019-10-23 10:18:37 +1030
+Processing by CoursesController#sewii as HTML
+  Rendering courses/sewii.html.erb within layouts/application
+  Rendered courses/sewii.html.erb within layouts/application (Duration: 0.6ms | Allocations: 276)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 18548)
+
+
+Started GET "/topic1" for 127.0.0.1 at 2019-10-23 10:18:39 +1030
+Processing by CoursesController#topic1 as HTML
+  Rendering courses/topic1.html.erb within layouts/application
+  Rendered courses/topic1.html.erb within layouts/application (Duration: 0.5ms | Allocations: 162)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 17957)
+
+
+Started GET "/download" for 127.0.0.1 at 2019-10-23 10:18:40 +1030
+Processing by CoursesController#download as HTML
+  Rendering courses/download.html.erb within layouts/application
+  Rendered courses/download.html.erb within layouts/application (Duration: 0.4ms | Allocations: 151)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 17949)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:18:41 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.7ms | Allocations: 169)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms | Allocations: 17971)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:18:42 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 49)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 17708)
+
+
+Started GET "/science" for 127.0.0.1 at 2019-10-23 10:18:44 +1030
+Processing by GroupsController#science as HTML
+  Rendering groups/science.html.erb within layouts/application
+  Rendered groups/science.html.erb within layouts/application (Duration: 0.3ms | Allocations: 53)
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 0.0ms | Allocations: 17713)
+
+
+Started GET "/science_group_members" for 127.0.0.1 at 2019-10-23 10:18:44 +1030
+Processing by GroupsController#science_group_members as HTML
+  Rendering groups/science_group_members.html.erb within layouts/application
+  Rendered groups/science_group_members.html.erb within layouts/application (Duration: 0.2ms | Allocations: 48)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 17698)
+
+
+Started GET "/science" for 127.0.0.1 at 2019-10-23 10:18:46 +1030
+Processing by GroupsController#science as HTML
+  Rendering groups/science.html.erb within layouts/application
+  Rendered groups/science.html.erb within layouts/application (Duration: 0.2ms | Allocations: 48)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 17698)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:18:48 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 17706)
+
+
+Started GET "/science" for 127.0.0.1 at 2019-10-23 10:19:16 +1030
+Processing by GroupsController#science as HTML
+  Rendering groups/science.html.erb within layouts/application
+  Rendered groups/science.html.erb within layouts/application (Duration: 0.2ms | Allocations: 48)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 17706)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:19:46 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 49)
+Completed 200 OK in 20ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 17708)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:20:34 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 174)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 18957)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:20:38 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 49)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 17703)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:20:38 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 49)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 17706)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:20:38 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms | Allocations: 17705)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:20:39 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 49)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 17701)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:20:39 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 49)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 17703)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:21:07 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 170)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 18952)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:21:13 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.7ms | Allocations: 49)
+Completed 200 OK in 32ms (Views: 30.4ms | ActiveRecord: 0.0ms | Allocations: 17700)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-23 10:21:28 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 172)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 18954)
+
+
