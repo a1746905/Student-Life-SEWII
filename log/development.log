@@ -4293,3 +4293,11 @@ Processing by PagesController#helpPage as HTML
 Completed 200 OK in 43ms (Views: 40.7ms | ActiveRecord: 0.0ms | Allocations: 17142)
 
 
+Started GET "/helpPage" for ::1 at 2019-10-23 11:36:55 +1030
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 203)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.0ms | Allocations: 18749)
+
+
