@@ -15,6 +15,9 @@ Rails.application.routes.draw do
 
   get 'download' => 'courses#download', as: 'download'
 
+  get 'helpPage' => 'pages#helpPage', as: 'helpPage'
+
+
   get 'science_group_members' => 
   'groups#science_group_members',
    as: 'science_group_members'

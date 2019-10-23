@@ -3,6 +3,9 @@ class PagesController < ApplicationController
 		@title = "Student Life: Home";
 	end
 	def coursePage
+		
+	end
+	def helpPage
 
 	end
 end
