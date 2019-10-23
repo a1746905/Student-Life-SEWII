@@ -5,18 +5,7 @@ class GroupsController < ApplicationController
 	
 	end
 
-	#sample group 2
-	def sample_group_2
-
-	end
-
-	#sample group 3
-	def sample_group_3
-
-	end
-
-	#sample group 4
-	def sample_group_4
+	def science_group_members
 
 	end
 end
