@@ -4,58 +4,14 @@
     <title>StudentLife</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <%= stylesheet_link_tag 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= csrf_meta_tags %>
   </head>
   <body>
-    <!--
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar header">
-          <a class="navbar-brand" href="#"><%= link_to "Student Life", homepage_path%></a>
-        </div>
-        <u1 class = "nav navbar-nav">
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Courses
-              <span class="caret"></span></a>
-              <u1 class="dropdown-menu">
-                <li><a href="#">Software Engineering Workshop II</a></li>
-                <li><a href="#">Algorithm and Data Structure Analysis</a></li>
-                <li><a href="#">Computer Systems</a></li>
-                <li><a href="#"> empty course </a></li>
-              </u1>
-            </li>
-          <p><a href="#">Calendar</a></p>
-          <p><a href="#">Campus Maps</a></p>
-          <p><a href="#">Ask Adelaide</a></p>
-        </u1>
-      </div>
-    </nav>
-    -->
-    <!--
-    <nav class="navbar navbar-inverse">
-      <div class="container">
-        <div class="navbar-header">-->
-          <!-- 3 bars button goes on the left -->
-         <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
 
-          <a class="navbar-brand" href="a"><%= link_to "Student Life", homepage_path%></a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <u1 class="nav navbar-nav">
-            <li><%= link_to "Group: Science", science_path %></li>
-          </u1>
-        </div>
-      </div>
-    </nav>
-    -->
+    <!-- commented out the old navbar from when bootstrap was in the project, use for reference on what it should look like if you need, but feel free to delete it if you dont need it-->
+    <!--
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#"><%= link_to "Student Life", homepage_path%></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,8 +22,8 @@
         <li class="nav-item">
           <a class="nav-link" href="#"><%= link_to "Courses", coursePage_path %><span class="sr-only">(current)</span></a>
         </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Calendar<!--<span class="sr-only">(current)</span>--></a>
+      <li class="nav-item">-->
+      <!--  <a class="nav-link" href="#">Calendar<span class="sr-only">(current)</span>--><!--</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Campus Maps</a>
@@ -80,7 +36,7 @@
       </li>
     </ul>
   </div>
-</nav>
+</nav>-->
     <%= yield %>
   </body>
 </html>
