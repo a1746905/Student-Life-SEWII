@@ -15,3 +15,55 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap');
+
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+	font-family:'Roboto',sans-serif;
+}
+
+#navbar {
+	top:0;
+	left:0;
+	width:100%;
+	position:fixed;
+	padding:10px;
+	background-color:#0b082e;
+}
+
+#navbar img {
+	height:40px;
+}
+
+#navbar ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+#navbar li {
+	float: left;
+	border:2px solid #fff;
+	margin-left:15px;
+}
+
+#navbar li a {
+	min-width: 100px;
+	display: block;
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navbar li a:hover {
+	background-color: #111;
+}
