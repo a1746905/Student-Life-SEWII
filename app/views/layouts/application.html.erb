@@ -1,38 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Student Life | University of Adelaide</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <%= csrf_meta_tags %>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-  </head>
-  <body>
-    <div id="navbar">
-      <ul>
-        <li class="icon">
-          <%= link_to homepage_path do %>
-            <% image_tag 'logo.png', width: 52 %>
-          <% end %>
-        </li>
-        <li><%= link_to "Home", homepage_path%></li>
-        <li><%= link_to "Courses", coursePage_path %></li>
-        <li><a>Calendar</a></li>
-        <li><a>Ask Adelaide</a></li>
-        <li class="icon help">
-          <%= link_to helpPage_path do %> <i class="fas fa-question-circle"></i> <% end %>
-        </li>
-        <li class="icon">
-          <form><input class="icon" type="text" placeholder="Search..">
-          <button type="submit"><i class="fa fa-search"></i></button></form>
-        </li>
-      </ul>
-    </div>
+	<head>
+		<title>Student Life | University of Adelaide</title>
+		<%= csrf_meta_tags %>
+		<%= csp_meta_tag %>
+		<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+		<%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+		<%= csrf_meta_tags %>
 
-    <div style="margin-top:100px">
-    <%= yield %>
-  </div>
-  </body>
+		<!-- tried to implement in a ruby on rails way but haven't managed to get it working yet-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+		
+		<!-- i want to move the following script and link but not sure what file or how to link
+				 i've added it to public as side.js but not sure if theres an existing application
+				 file? i've tried but couldn't get it working so keeping this here for now -->
+		<script>
+			function openNav() {
+				document.getElementById("side").style.width = "250px";
+				document.getElementById("main").style.marginLeft = "250px";
+			}
+			function closeNav() {
+				document.getElementById("side").style.width = "0";
+				document.getElementById("main").style.marginLeft = "0";
+			}
+		</script>
+	</head>
+	<body>
+		<div id="side" class="nav_side">
+			<a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+			<h2>Navigation</h2>
+			<a>Payment</a>
+			<a>Link 1</a>
+			<a>Link 2</a>
+			<a>Link 3</a>
+			<a>Link 4</a>
+		</div>
+
+		<div id="main">
+		<div class="nav_top">
+			<a onclick="openNav()" class="icon help"><i class="fas fa-bars"></i></a>
+			<%= link_to homepage_path, class: 'icon' do %><% image_tag 'logo.png', width: 52 %><% end %>
+			<%= link_to "Home", homepage_path %>
+			<%= link_to "Courses", coursePage_path %>
+			<a>Calendar</a>
+			<a>Ask Adelaide</a>
+			<%= link_to helpPage_path, class: 'icon help' do %><i class="fas fa-question-circle"></i><% end %>
+		</div>
+		<%= yield %>
+		</div>
+	</body>
 </html>
