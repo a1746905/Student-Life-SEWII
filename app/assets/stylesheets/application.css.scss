@@ -25,6 +25,12 @@ body {
 	font-family:'Roboto',sans-serif;
 }
 
+a:hover {
+	-webkit-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
 #navbar {
 	top:0;
 	left:0;
@@ -32,10 +38,6 @@ body {
 	position:fixed;
 	padding:10px;
 	background-color:#0b082e;
-}
-
-#navbar img {
-	height:40px;
 }
 
 #navbar ul {
@@ -65,5 +67,31 @@ body {
 
 /* Change the link color to #111 (black) on hover */
 #navbar li a:hover {
-	background-color: #111;
+	color:#0b082e;
+	background-color: #fff;
+}
+
+#navbar li.icon, #navbar li.icon a {
+	min-width:0;
+	padding:0;
+	border:none;
+}
+
+#navbar li.help, #navbar li.help a {
+	margin:2px 10px;
+	font-size:30px;
+	color:#fff;
+}
+
+#navbar li.help a:hover, #navbar li.icon a:hover {
+	background-color:transparent;
+}
+
+#navbar form {
+	float: right;
+}
+#navbar input {
+	padding:5px;
+	border: none;
+	border-radius: 5px;
 }

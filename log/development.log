@@ -6846,3 +6846,1588 @@ Processing by PagesController#homepage as HTML
 Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 9390)
 
 
+Started GET "/" for ::1 at 2019-11-02 00:01:09 +1030
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.7ms | Allocations: 503)
+Completed 200 OK in 692ms (Views: 688.6ms | ActiveRecord: 0.0ms | Allocations: 1488597)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:21:43 +1030
+  [1m[35m (5.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 2.6ms | Allocations: 503)
+Completed 200 OK in 884ms (Views: 876.5ms | ActiveRecord: 0.0ms | Allocations: 1571280)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:22:04 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 197)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 11855)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:22:27 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 11786)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:23:18 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 192)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 11797)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:23:19 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 10546)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:24:18 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 11783)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:24:18 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 51)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 10547)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:25:40 +1030
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 1.5ms | Allocations: 504)
+Completed 200 OK in 1214ms (Views: 1208.1ms | ActiveRecord: 0.0ms | Allocations: 1917966)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:26:08 +1030
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 2.1ms | Allocations: 504)
+Completed 500 Internal Server Error in 122ms (ActiveRecord: 0.0ms | Allocations: 297341)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "@import ": expected "{", was "url('https://fo..."):
+    4:     <title>Student Life | University of Adelaide</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    8:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:     <%= csrf_meta_tags %>
+   10:   </head>
+  
+app/assets/stylesheets/application.css.scss:22
+app/views/layouts/application.html.erb:7
+Started GET "/" for ::1 at 2019-11-02 11:26:33 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 55)
+Completed 200 OK in 676ms (Views: 675.6ms | ActiveRecord: 0.0ms | Allocations: 1210267)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:26:35 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 10969)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:26:36 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 10960)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:27:59 +1030
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 1.8ms | Allocations: 504)
+Completed 200 OK in 714ms (Views: 708.1ms | ActiveRecord: 0.0ms | Allocations: 1495165)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:28:34 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 198)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 8982)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:28:35 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 51)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 7725)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:28:49 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 192)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 8975)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:28:50 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 7718)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:29:27 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 195)
+Completed 200 OK in 27ms (Views: 26.7ms | ActiveRecord: 0.0ms | Allocations: 20846)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:29:28 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 7745)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:29:37 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms | Allocations: 20410)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:29:46 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 22ms (Views: 21.8ms | ActiveRecord: 0.0ms | Allocations: 20942)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:29:57 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 20977)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:29:58 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 7749)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:30:55 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 22049)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:31:11 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 7745)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:31:12 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 8967)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:31:13 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 7723)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:31:39 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.5ms | Allocations: 192)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 8971)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:31:39 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 7728)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:31:55 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 25ms (Views: 24.8ms | ActiveRecord: 0.0ms | Allocations: 20581)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:32:10 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms | Allocations: 20583)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:32:14 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 20548)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:32:19 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.0ms | Allocations: 20148)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:32:40 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 196)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 9042)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:32:41 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 1.8ms | Allocations: 207)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 8046)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:32:55 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 202)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 9003)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:32:57 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 191)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 8023)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:33:51 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 191)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 8949)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:33:53 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1711)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Life | University of Adelaide</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= csrf_meta_tags %>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  </head>
+  <body>
+
+    <div id="navbar">
+      <ul>
+        <li style="border:none;"><%= image_tag 'logo.png'%></li>
+        <li><%= link_to "Home", homepage_path%></li>
+        <li><%= link_to "Courses", coursePage_path %></li>
+        <li><a>Calendar</a></li>
+        <li><a>Ask Adelaide</a></li>
+        <li class="help"><%= link_to(raw("<i class="fas fa-question-circle"></i>")), helpPage_path %></li>
+      </ul>
+    </div>
+
+
+
+    <!-- commented out the old navbar from when bootstrap was in the project, use for reference on what it should look like if you need, but feel free to delete it if you dont need it-->
+
+
+
+
+
+    <!--
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><%= link_to "Student Life", homepage_path%></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><%= link_to "Courses", coursePage_path %><span class="sr-only">(current)</span></a>
+        </li>
+      <li class="nav-item">-->
+      <!--  <a class="nav-link" href="#">Calendar<span class="sr-only">(current)</span>--><!--</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Campus Maps</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Ask Adelaide</a>
+      </li>
+      <li class="nav-item">
+        <img src="/questionmark.png" alt="HELP" class = "nav-link" height="50" width="50" href="#"><%= link_to "Help", helpPage_path %>
+      </li>
+    </ul>
+  </div>
+</nav>-->
+    <div style="margin-top:100px">
+    <%= yield %>
+  </div>
+  </body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <title>Student Life | University of Adelaide</title>
+5:        <%= csrf_meta_tags %>
+6:        <%= csp_meta_tag %>
+7:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+8:        <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+9:        <%= csrf_meta_tags %>
+10:        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+11:      </head>
+12:      <body>
+13:    
+14:        <div id="navbar">
+15:          <ul>
+16:            <li style="border:none;"><%= image_tag 'logo.png'%></li>
+17:            <li><%= link_to "Home", homepage_path%></li>
+18:            <li><%= link_to "Courses", coursePage_path %></li>
+19:            <li><a>Calendar</a></li>
+20:            <li><a>Ask Adelaide</a></li>
+21:            <li class="help"><%= link_to(raw("<i class="fas fa-question-circle"></i>")), helpPage_path %></li>
+22:          </ul>
+23:        </div>
+24:    
+25:    
+26:    
+27:        <!-- commented out the old navbar from when bootstrap was in the project, use for reference on what it should look like if you need, but feel free to delete it if you dont need it-->
+28:    
+29:    
+30:    
+31:    
+32:    
+33:        <!--
+34:        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+35:      <a class="navbar-brand" href="#"><%= link_to "Student Life", homepage_path%></a>
+36:      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+37:        <span class="navbar-toggler-icon"></span>
+38:      </button>
+39:      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+40:        <ul class="navbar-nav">
+41:            <li class="nav-item">
+42:              <a class="nav-link" href="#"><%= link_to "Courses", coursePage_path %><span class="sr-only">(current)</span></a>
+43:            </li>
+44:          <li class="nav-item">-->
+45:          <!--  <a class="nav-link" href="#">Calendar<span class="sr-only">(current)</span>--><!--</a>
+46:          </li>
+47:          <li class="nav-item">
+48:            <a class="nav-link" href="#">Campus Maps</a>
+49:          </li>
+50:          <li class="nav-item">
+51:            <a class="nav-link" href="#">Ask Adelaide</a>
+52:          </li>
+53:          <li class="nav-item">
+54:            <img src="/questionmark.png" alt="HELP" class = "nav-link" height="50" width="50" href="#"><%= link_to "Help", helpPage_path %>
+55:          </li>
+56:        </ul>
+57:      </div>
+58:    </nav>-->
+59:        <div style="margin-top:100px">
+60:        <%= yield %>
+61:      </div>
+62:      </body>
+63:    </html>
+  
+app/views/layouts/application.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:21: syntax error, unexpected ')', expecting keyword_end
+app/views/layouts/application.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:21: syntax error, unexpected ')', expecting keyword_end
+app/views/layouts/application.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:21: syntax error, unexpected ')', expecting keyword_end
+app/views/layouts/application.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:21: syntax error, unexpected ')', expecting keyword_end
+app/views/layouts/application.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:21: syntax error, unexpected ')', expecting keyword_end
+app/views/layouts/application.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:21: syntax error, unexpected ')', expecting keyword_end
+Started GET "/" for ::1 at 2019-11-02 11:35:16 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 9068)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:35:18 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.7ms | Allocations: 202)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 8038)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:35:19 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 7744)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:35:25 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 19ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 20616)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:35:35 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 19892)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:35:36 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 7763)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:35:37 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 7748)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:35:40 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 11ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 8189)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:35:41 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 7735)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:36:02 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 20914)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:36:02 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 7765)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:36:04 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 7740)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:36:05 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 7737)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:36:05 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 48)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 7735)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:36:06 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 7736)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:36:12 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 20890)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:36:13 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 7766)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:36:19 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 7739)
+
+
+Started GET "/coursePage" for ::1 at 2019-11-02 11:36:20 +1030
+Processing by PagesController#coursePage as HTML
+  Rendering pages/coursePage.html.erb within layouts/application
+  Rendered pages/coursePage.html.erb within layouts/application (Duration: 1.3ms | Allocations: 184)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 8024)
+
+
+Started GET "/sewii" for ::1 at 2019-11-02 11:36:21 +1030
+Processing by CoursesController#sewii as HTML
+  Rendering courses/sewii.html.erb within layouts/application
+  Rendered courses/sewii.html.erb within layouts/application (Duration: 1.3ms | Allocations: 301)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 8567)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:36:22 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 54)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 7754)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:36:43 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 19ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 21037)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:36:44 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 7776)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:36:57 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms | Allocations: 19890)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:36:57 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 7772)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:37:00 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 8184)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:37:08 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 20624)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:37:21 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms | Allocations: 21484)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:37:26 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 8211)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:37:43 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 21189)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:37:49 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 20786)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:38:08 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 20767)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:38:13 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 23ms (Views: 22.8ms | ActiveRecord: 0.0ms | Allocations: 20808)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:38:21 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 22ms (Views: 21.8ms | ActiveRecord: 0.0ms | Allocations: 20412)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:38:22 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 7770)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:38:24 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 7743)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:38:25 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 7745)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:38:31 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 7741)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:38:33 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 7740)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:38:35 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 7746)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:38:36 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 7740)
+
+
+Started GET "/coursePage" for ::1 at 2019-11-02 11:38:37 +1030
+Processing by PagesController#coursePage as HTML
+  Rendering pages/coursePage.html.erb within layouts/application
+  Rendered pages/coursePage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 7739)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:38:38 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 7745)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:38:58 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.0ms | Allocations: 20518)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:39:24 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 21635)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:39:37 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 21851)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:39:43 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 8222)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:39:57 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 22820)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:40:28 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 49)
+Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms | Allocations: 22532)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:40:32 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 7763)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:40:33 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 7749)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:40:34 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 7746)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:40:47 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms | Allocations: 22537)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:40:59 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 8214)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:41:30 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 196)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2633)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Life | University of Adelaide</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= csrf_meta_tags %>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  </head>
+  <body>
+
+    <div id="navbar">
+      <ul>
+        <li style="border:none;">
+          <%= link_to homepage_path, image_tag 'logo.png'%></li>
+        <li><%= link_to "Home", homepage_path%></li>
+        <li><%= link_to "Courses", coursePage_path %></li>
+        <li><a>Calendar</a></li>
+        <li><a>Ask Adelaide</a></li>
+        <li class="help">
+          <%= link_to helpPage_path do %> <i class="fas fa-question-circle"></i> <% end %>
+        </li>
+      </ul>
+    </div>
+
+
+
+    <!-- commented out the old navbar from when bootstrap was in the project, use for reference on what it should look like if you need, but feel free to delete it if you dont need it-->
+
+
+
+
+
+    <!--
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><%= link_to "Student Life", homepage_path%></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><%= link_to "Courses", coursePage_path %><span class="sr-only">(current)</span></a>
+        </li>
+      <li class="nav-item">-->
+      <!--  <a class="nav-link" href="#">Calendar<span class="sr-only">(current)</span>--><!--</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Campus Maps</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Ask Adelaide</a>
+      </li>
+      <li class="nav-item">
+        <img src="/questionmark.png" alt="HELP" class = "nav-link" height="50" width="50" href="#"><%= link_to "Help", helpPage_path %>
+      </li>
+    </ul>
+  </div>
+</nav>-->
+    <div style="margin-top:100px">
+    <%= yield %>
+  </div>
+  </body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <title>Student Life | University of Adelaide</title>
+5:        <%= csrf_meta_tags %>
+6:        <%= csp_meta_tag %>
+7:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+8:        <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+9:        <%= csrf_meta_tags %>
+10:        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+11:      </head>
+12:      <body>
+13:    
+14:        <div id="navbar">
+15:          <ul>
+16:            <li style="border:none;">
+17:              <%= link_to homepage_path, image_tag 'logo.png'%></li>
+18:            <li><%= link_to "Home", homepage_path%></li>
+19:            <li><%= link_to "Courses", coursePage_path %></li>
+20:            <li><a>Calendar</a></li>
+21:            <li><a>Ask Adelaide</a></li>
+22:            <li class="help">
+23:              <%= link_to helpPage_path do %> <i class="fas fa-question-circle"></i> <% end %>
+24:            </li>
+25:          </ul>
+26:        </div>
+27:    
+28:    
+29:    
+30:        <!-- commented out the old navbar from when bootstrap was in the project, use for reference on what it should look like if you need, but feel free to delete it if you dont need it-->
+31:    
+32:    
+33:    
+34:    
+35:    
+36:        <!--
+37:        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+38:      <a class="navbar-brand" href="#"><%= link_to "Student Life", homepage_path%></a>
+39:      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+40:        <span class="navbar-toggler-icon"></span>
+41:      </button>
+42:      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+43:        <ul class="navbar-nav">
+44:            <li class="nav-item">
+45:              <a class="nav-link" href="#"><%= link_to "Courses", coursePage_path %><span class="sr-only">(current)</span></a>
+46:            </li>
+47:          <li class="nav-item">-->
+48:          <!--  <a class="nav-link" href="#">Calendar<span class="sr-only">(current)</span>--><!--</a>
+49:          </li>
+50:          <li class="nav-item">
+51:            <a class="nav-link" href="#">Campus Maps</a>
+52:          </li>
+53:          <li class="nav-item">
+54:            <a class="nav-link" href="#">Ask Adelaide</a>
+55:          </li>
+56:          <li class="nav-item">
+57:            <img src="/questionmark.png" alt="HELP" class = "nav-link" height="50" width="50" href="#"><%= link_to "Help", helpPage_path %>
+58:          </li>
+59:        </ul>
+60:      </div>
+61:    </nav>-->
+62:        <div style="margin-top:100px">
+63:        <%= yield %>
+64:      </div>
+65:      </body>
+66:    </html>
+  
+app/views/layouts/application.html.erb:17: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:17: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:17: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:17: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:17: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:17: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+Started GET "/" for ::1 at 2019-11-02 11:42:23 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 191)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2637)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Life | University of Adelaide</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= csrf_meta_tags %>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  </head>
+  <body>
+
+    <div id="navbar">
+      <ul>
+        <li style="border:none;">
+          <%= link_to homepage_path do %> <% image_tag 'logo.png' %></li>
+        <li><%= link_to "Home", homepage_path%></li>
+        <li><%= link_to "Courses", coursePage_path %></li>
+        <li><a>Calendar</a></li>
+        <li><a>Ask Adelaide</a></li>
+        <li class="help">
+          <%= link_to helpPage_path do %> <i class="fas fa-question-circle"></i> <% end %>
+        </li>
+      </ul>
+    </div>
+
+
+
+    <!-- commented out the old navbar from when bootstrap was in the project, use for reference on what it should look like if you need, but feel free to delete it if you dont need it-->
+
+
+
+
+
+    <!--
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><%= link_to "Student Life", homepage_path%></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><%= link_to "Courses", coursePage_path %><span class="sr-only">(current)</span></a>
+        </li>
+      <li class="nav-item">-->
+      <!--  <a class="nav-link" href="#">Calendar<span class="sr-only">(current)</span>--><!--</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Campus Maps</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Ask Adelaide</a>
+      </li>
+      <li class="nav-item">
+        <img src="/questionmark.png" alt="HELP" class = "nav-link" height="50" width="50" href="#"><%= link_to "Help", helpPage_path %>
+      </li>
+    </ul>
+  </div>
+</nav>-->
+    <div style="margin-top:100px">
+    <%= yield %>
+  </div>
+  </body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <title>Student Life | University of Adelaide</title>
+5:        <%= csrf_meta_tags %>
+6:        <%= csp_meta_tag %>
+7:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+8:        <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+9:        <%= csrf_meta_tags %>
+10:        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+11:      </head>
+12:      <body>
+13:    
+14:        <div id="navbar">
+15:          <ul>
+16:            <li style="border:none;">
+17:              <%= link_to homepage_path do %> <% image_tag 'logo.png' %></li>
+18:            <li><%= link_to "Home", homepage_path%></li>
+19:            <li><%= link_to "Courses", coursePage_path %></li>
+20:            <li><a>Calendar</a></li>
+21:            <li><a>Ask Adelaide</a></li>
+22:            <li class="help">
+23:              <%= link_to helpPage_path do %> <i class="fas fa-question-circle"></i> <% end %>
+24:            </li>
+25:          </ul>
+26:        </div>
+27:    
+28:    
+29:    
+30:        <!-- commented out the old navbar from when bootstrap was in the project, use for reference on what it should look like if you need, but feel free to delete it if you dont need it-->
+31:    
+32:    
+33:    
+34:    
+35:    
+36:        <!--
+37:        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+38:      <a class="navbar-brand" href="#"><%= link_to "Student Life", homepage_path%></a>
+39:      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+40:        <span class="navbar-toggler-icon"></span>
+41:      </button>
+42:      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+43:        <ul class="navbar-nav">
+44:            <li class="nav-item">
+45:              <a class="nav-link" href="#"><%= link_to "Courses", coursePage_path %><span class="sr-only">(current)</span></a>
+46:            </li>
+47:          <li class="nav-item">-->
+48:          <!--  <a class="nav-link" href="#">Calendar<span class="sr-only">(current)</span>--><!--</a>
+49:          </li>
+50:          <li class="nav-item">
+51:            <a class="nav-link" href="#">Campus Maps</a>
+52:          </li>
+53:          <li class="nav-item">
+54:            <a class="nav-link" href="#">Ask Adelaide</a>
+55:          </li>
+56:          <li class="nav-item">
+57:            <img src="/questionmark.png" alt="HELP" class = "nav-link" height="50" width="50" href="#"><%= link_to "Help", helpPage_path %>
+58:          </li>
+59:        </ul>
+60:      </div>
+61:    </nav>-->
+62:        <div style="margin-top:100px">
+63:        <%= yield %>
+64:      </div>
+65:      </body>
+66:    </html>
+  
+app/views/layouts/application.html.erb:69: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/layouts/application.html.erb:69: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/layouts/application.html.erb:69: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/layouts/application.html.erb:69: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/layouts/application.html.erb:69: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/layouts/application.html.erb:69: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for ::1 at 2019-11-02 11:42:26 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1731)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Life | University of Adelaide</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= csrf_meta_tags %>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  </head>
+  <body>
+
+    <div id="navbar">
+      <ul>
+        <li style="border:none;">
+          <%= link_to homepage_path do %> <% image_tag 'logo.png' %></li>
+        <li><%= link_to "Home", homepage_path%></li>
+        <li><%= link_to "Courses", coursePage_path %></li>
+        <li><a>Calendar</a></li>
+        <li><a>Ask Adelaide</a></li>
+        <li class="help">
+          <%= link_to helpPage_path do %> <i class="fas fa-question-circle"></i> <% end %>
+        </li>
+      </ul>
+    </div>
+
+
+
+    <!-- commented out the old navbar from when bootstrap was in the project, use for reference on what it should look like if you need, but feel free to delete it if you dont need it-->
+
+
+
+
+
+    <!--
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><%= link_to "Student Life", homepage_path%></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><%= link_to "Courses", coursePage_path %><span class="sr-only">(current)</span></a>
+        </li>
+      <li class="nav-item">-->
+      <!--  <a class="nav-link" href="#">Calendar<span class="sr-only">(current)</span>--><!--</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Campus Maps</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Ask Adelaide</a>
+      </li>
+      <li class="nav-item">
+        <img src="/questionmark.png" alt="HELP" class = "nav-link" height="50" width="50" href="#"><%= link_to "Help", helpPage_path %>
+      </li>
+    </ul>
+  </div>
+</nav>-->
+    <div style="margin-top:100px">
+    <%= yield %>
+  </div>
+  </body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <title>Student Life | University of Adelaide</title>
+5:        <%= csrf_meta_tags %>
+6:        <%= csp_meta_tag %>
+7:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+8:        <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+9:        <%= csrf_meta_tags %>
+10:        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+11:      </head>
+12:      <body>
+13:    
+14:        <div id="navbar">
+15:          <ul>
+16:            <li style="border:none;">
+17:              <%= link_to homepage_path do %> <% image_tag 'logo.png' %></li>
+18:            <li><%= link_to "Home", homepage_path%></li>
+19:            <li><%= link_to "Courses", coursePage_path %></li>
+20:            <li><a>Calendar</a></li>
+21:            <li><a>Ask Adelaide</a></li>
+22:            <li class="help">
+23:              <%= link_to helpPage_path do %> <i class="fas fa-question-circle"></i> <% end %>
+24:            </li>
+25:          </ul>
+26:        </div>
+27:    
+28:    
+29:    
+30:        <!-- commented out the old navbar from when bootstrap was in the project, use for reference on what it should look like if you need, but feel free to delete it if you dont need it-->
+31:    
+32:    
+33:    
+34:    
+35:    
+36:        <!--
+37:        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+38:      <a class="navbar-brand" href="#"><%= link_to "Student Life", homepage_path%></a>
+39:      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+40:        <span class="navbar-toggler-icon"></span>
+41:      </button>
+42:      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+43:        <ul class="navbar-nav">
+44:            <li class="nav-item">
+45:              <a class="nav-link" href="#"><%= link_to "Courses", coursePage_path %><span class="sr-only">(current)</span></a>
+46:            </li>
+47:          <li class="nav-item">-->
+48:          <!--  <a class="nav-link" href="#">Calendar<span class="sr-only">(current)</span>--><!--</a>
+49:          </li>
+50:          <li class="nav-item">
+51:            <a class="nav-link" href="#">Campus Maps</a>
+52:          </li>
+53:          <li class="nav-item">
+54:            <a class="nav-link" href="#">Ask Adelaide</a>
+55:          </li>
+56:          <li class="nav-item">
+57:            <img src="/questionmark.png" alt="HELP" class = "nav-link" height="50" width="50" href="#"><%= link_to "Help", helpPage_path %>
+58:          </li>
+59:        </ul>
+60:      </div>
+61:    </nav>-->
+62:        <div style="margin-top:100px">
+63:        <%= yield %>
+64:      </div>
+65:      </body>
+66:    </html>
+  
+app/views/layouts/application.html.erb:69: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/layouts/application.html.erb:69: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/layouts/application.html.erb:69: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/layouts/application.html.erb:69: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/layouts/application.html.erb:69: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/layouts/application.html.erb:69: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for ::1 at 2019-11-02 11:42:43 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 8183)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:43:25 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 191)
+Completed 200 OK in 22ms (Views: 21.9ms | ActiveRecord: 0.0ms | Allocations: 23464)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:43:32 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 21823)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:43:35 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 7792)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:44:07 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 23520)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:44:20 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 9114)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:44:58 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 9098)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:45:19 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.0ms | Allocations: 22783)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:45:20 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 7796)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:45:30 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms | Allocations: 22167)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:45:46 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 194)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 9125)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:45:59 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 9098)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:46:33 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms | Allocations: 23087)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:46:35 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 7795)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:46:36 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 7769)
+
+
+Started GET "/coursePage" for ::1 at 2019-11-02 11:46:37 +1030
+Processing by PagesController#coursePage as HTML
+  Rendering pages/coursePage.html.erb within layouts/application
+  Rendered pages/coursePage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 178)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 8043)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:46:38 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 7769)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:46:50 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 9102)
+
+
+Started GET "/coursePage" for ::1 at 2019-11-02 11:46:50 +1030
+Processing by PagesController#coursePage as HTML
+  Rendering pages/coursePage.html.erb within layouts/application
+  Rendered pages/coursePage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 177)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 8038)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:46:52 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 202)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 8067)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:47:22 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 24073)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:47:25 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 7797)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:48:06 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.6ms | Allocations: 191)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.0ms | Allocations: 24177)
+
+
+Started GET "/helpPage" for ::1 at 2019-11-02 11:48:08 +1030
+Processing by PagesController#helpPage as HTML
+  Rendering pages/helpPage.html.erb within layouts/application
+  Rendered pages/helpPage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 202)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 8095)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:48:09 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 50)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 7774)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:48:27 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 7781)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:49:10 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms | Allocations: 22834)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:49:45 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 194)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 9128)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:50:55 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 192)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 9547)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:50:55 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 7775)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:50:58 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 9096)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:51:43 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 24384)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:51:44 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 50)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 7801)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:52:21 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.0ms | Allocations: 23311)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:52:21 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 7797)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:52:36 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 22ms (Views: 21.9ms | ActiveRecord: 0.0ms | Allocations: 23384)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:52:37 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 7791)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:53:04 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 192)
+Completed 200 OK in 27ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 24193)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:53:27 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms | Allocations: 23055)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:53:32 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 23ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 23048)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:54:03 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 26ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 23138)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:54:54 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 196)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 9137)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:55:58 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 7768)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:56:37 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 8961)
+
+
+Started GET "/" for ::1 at 2019-11-02 11:57:17 +1030
+Processing by PagesController#homepage as HTML
+  Rendering pages/homepage.html.erb within layouts/application
+  Rendered pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 23557)
+
+

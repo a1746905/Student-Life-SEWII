@@ -7,54 +7,30 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= csrf_meta_tags %>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
   </head>
   <body>
-
     <div id="navbar">
       <ul>
-        <li style="border:none;"><%= image_tag 'logo.png'%></li>
+        <li class="icon">
+          <%= link_to homepage_path do %>
+            <% image_tag 'logo.png', width: 52 %>
+          <% end %>
+        </li>
         <li><%= link_to "Home", homepage_path%></li>
         <li><%= link_to "Courses", coursePage_path %></li>
         <li><a>Calendar</a></li>
         <li><a>Ask Adelaide</a></li>
-        <!-- <li></li> -->
+        <li class="icon help">
+          <%= link_to helpPage_path do %> <i class="fas fa-question-circle"></i> <% end %>
+        </li>
+        <li class="icon">
+          <form><input class="icon" type="text" placeholder="Search..">
+          <button type="submit"><i class="fa fa-search"></i></button></form>
+        </li>
       </ul>
     </div>
 
-
-
-    <!-- commented out the old navbar from when bootstrap was in the project, use for reference on what it should look like if you need, but feel free to delete it if you dont need it-->
-
-
-
-
-
-    <!--
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><%= link_to "Student Life", homepage_path%></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#"><%= link_to "Courses", coursePage_path %><span class="sr-only">(current)</span></a>
-        </li>
-      <li class="nav-item">-->
-      <!--  <a class="nav-link" href="#">Calendar<span class="sr-only">(current)</span>--><!--</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Campus Maps</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Ask Adelaide</a>
-      </li>
-      <li class="nav-item">
-        <img src="/questionmark.png" alt="HELP" class = "nav-link" height="50" width="50" href="#"><%= link_to "Help", helpPage_path %>
-      </li>
-    </ul>
-  </div>
-</nav>-->
     <div style="margin-top:100px">
     <%= yield %>
   </div>
