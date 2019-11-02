@@ -1,3 +1,15 @@
-// Place all the styles related to the courses controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.courses .box a {
+	color:#000;
+}
+
+.courses .box a:hover {
+	color:#fff;
+}
+
+.courses .box:hover {
+	background-color:#0b082e;
+	color:#fff;
+	-webkit-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}

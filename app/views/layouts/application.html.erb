@@ -38,13 +38,13 @@
 
 		<div id="main">
 		<div class="nav_top">
-			<a onclick="openNav()" class="icon help open"><i class="fas fa-bars"></i></a>
+			<a onclick="openNav()" class="icon question open"><i class="fas fa-bars"></i></a>
 			<%= link_to homepage_path, class: 'icon' do %><% image_tag 'logo.png', width: 52 %><% end %>
 			<%= link_to "Home", homepage_path %>
 			<%= link_to "Courses", coursePage_path %>
 			<a href="#">Calendar</a>
 			<a href="#">Ask Adelaide</a>
-			<%= link_to helpPage_path, class: 'icon help' do %><i class="fas fa-question-circle"></i><% end %>
+			<%= link_to helpPage_path, class: 'icon question' do %><i class="fas fa-question-circle"></i><% end %>
 
 			<div class="nav_drop" style="float:right;">
 				<a class="user"><i class="fas fa-user"></i></a>
@@ -62,7 +62,7 @@
 			</div>
 
 		</div>
-		<%= yield %>
+		<div id="body"><%= yield %></div>
 		</div>
 	</body>
 </html>

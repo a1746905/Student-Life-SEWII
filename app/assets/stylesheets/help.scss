@@ -1,0 +1,55 @@
+
+.help .grid {
+	max-width:1200px;
+}
+
+.help .box {
+	width:300px;
+	margin:0 5px 10px 5px;
+}
+
+
+.help .box img {
+	width:300px;
+	height:200px;
+	object-fit:cover;
+	border-radius:10px 10px 0 0;
+}
+
+.help .box h2 {
+	font-style:italic;
+	text-align:center;
+	margin-bottom:0;
+}
+
+.help .box .info {
+	padding:15px;
+	text-align:center;
+}
+
+.help .box p {
+	padding:0;
+	margin:1em 0;
+}
+
+.help .box p:first-child {
+	margin:0;
+}
+
+.help .box textarea {
+	width:80%;
+	height:100px;
+}
+
+.help .box button {
+	padding:7px 10px;
+	margin:0 auto;
+	margin-top:10px;
+	display:block;
+	font-size:14px;
+	background-color:#f1f1f1;
+	color:#000;
+	border:none;
+	border-radius:none;
+	cursor:pointer;
+}	
