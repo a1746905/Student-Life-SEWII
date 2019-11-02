@@ -8,4 +8,7 @@ class PagesController < ApplicationController
 	def helpPage
 
 	end
+	def payPage
+
+	end 
 end
