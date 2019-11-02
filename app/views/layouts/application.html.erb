@@ -29,22 +29,38 @@
 		<div id="side" class="nav_side">
 			<a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
 			<h2>Navigation</h2>
-			<a>Payment</a>
-			<a>Link 1</a>
-			<a>Link 2</a>
-			<a>Link 3</a>
-			<a>Link 4</a>
+			<a href="#">Payment</a>
+			<a href="#">Link 1</a>
+			<a href="#">Link 2</a>
+			<a href="#">Link 3</a>
+			<a href="#">Link 4</a>
 		</div>
 
 		<div id="main">
 		<div class="nav_top">
-			<a onclick="openNav()" class="icon help"><i class="fas fa-bars"></i></a>
+			<a onclick="openNav()" class="icon help open"><i class="fas fa-bars"></i></a>
 			<%= link_to homepage_path, class: 'icon' do %><% image_tag 'logo.png', width: 52 %><% end %>
 			<%= link_to "Home", homepage_path %>
 			<%= link_to "Courses", coursePage_path %>
-			<a>Calendar</a>
-			<a>Ask Adelaide</a>
+			<a href="#">Calendar</a>
+			<a href="#">Ask Adelaide</a>
 			<%= link_to helpPage_path, class: 'icon help' do %><i class="fas fa-question-circle"></i><% end %>
+
+			<div class="nav_drop" style="float:right;">
+				<a class="user"><i class="fas fa-user"></i></a>
+				<div class="drop">
+					<a href="#">Settings</a>
+					<a href="#">Log Out</a>
+				</div>
+			</div>
+
+			<div class="search">
+				<form>
+					<input type="text" placeholder="Search ..." name="search">
+					<button type="submit"><i class="fa fa-search"></i></button>
+				</form>
+			</div>
+
 		</div>
 		<%= yield %>
 		</div>
