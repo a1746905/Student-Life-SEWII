@@ -1,20 +1,50 @@
-<h3>SCIENCE - Group</h3>
-<p>Created January 2016</p>
-<p>Members: 284</p>
-
-<!-- Big green button -->
-<h3><i><b>Join Group</b></i></h3>
-
-<!-- Task bar -->
-<ul>
-	<li>Home</li>
-	<li>Post</li>
-	<li>Notes</li>
-	<li>About</li>
-</ul>
-
 <!--if see all is clicked, display group
 	members as a drop down list with 
 	button see less at the bottom.
 	if the button has not been clicked then only display the 'see all' label-->
-<p><%= link_to "See All", science_group_members_path %></p>
+<!-- <p><%= link_to "See All", science_group_members_path %></p>
+ -->
+<div class="science sidebar">
+	<div class="science image"><%= image_tag 'science.jpg', alt: 'Cartoon science graphic' %></div>
+	<h2>Science</h2>
+	<div class="science info">
+		<i>Science enthusiasts galore!</i>
+		<p>We created this group for likeminded individuals that love science. Whether you like biology, chemistry, or physics, there's a place here for you.</p>
+		<p>Created January 2016<br/>
+		Members: 284</p>
+		<button>Leave Group</button>
+	</div>
+	<a href="#">View All Posts</a>
+	<a href="#">Contact Moderators</a>
+	<%= link_to "Members", science_group_members_path %>
+	<div class="science posts">
+	<div class="science post">
+		<div class="science user"><i class="far fa-smile icon"></i><br/>Michelle</div>
+		<textarea placeholder="What would you like to say?"></textarea>
+		<button>Post</button>
+	</div>
+	<div class="science post">
+		<div class="science user"><i class="far fa-smile icon"></i><br/>Lachlan</div>
+		<div class="science content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur nibh nec ante dapibus ultrices.</div>
+		<div class="science like">
+			<button>Like</button>
+			<button>Report</button>
+		</div>
+	</div>
+	<div class="science post">
+		<div class="science user"><i class="far fa-smile icon"></i><br/>Shameen</div>
+		<div class="science content">Phasellus velit diam, efficitur in lacus a, placerat bibendum est. Mauris purus sapien, volutpat a ante in, sodales ullamcorper velit. Quisque interdum justo maximus, aliquet nibh id, scelerisque lacus.</div>
+		<div class="science like">
+			<button>Like</button>
+			<button>Report</button>
+		</div>
+	</div>
+	<div class="science post">
+		<div class="science user"><i class="far fa-smile icon"></i><br/>Ben</div>
+		<div class="science content">Sed ultricies, mi ut condimentum aliquam, nisl dolor posuere urna, tempor vestibulum ex orci egestas dui. Pellentesque vel bibendum velit. Nunc vel metus hendrerit, vulputate augue ut, placerat odio. Vivamus id euismod sem, id consequat mauris. Maecenas mattis nunc quis velit euismod, eu dignissim lacus ullamcorper. Suspendisse commodo euismod sapien, accumsan efficitur libero accumsan in. Cras mattis turpis placerat eleifend cursus. Quisque rutrum dignissim nunc.</div>
+		<div class="science like">
+			<button>Like</button>
+			<button>Report</button>
+		</div>
+	</div>
+</div>
