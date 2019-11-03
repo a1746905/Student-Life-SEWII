@@ -13,15 +13,17 @@ Rails.application.routes.draw do
 
   get 'topic1' => 'courses#topic1', as: 'topic1'
 
-  get 'download' => 'courses#download', as: 'download'
-
   get 'helpPage' => 'pages#helpPage', as: 'helpPage'
 
+  get 'appointment' => 'pages#appointment', as: 'appointment'
 
-  get 'science_group_members' => 
-  'groups#science_group_members',
-   as: 'science_group_members'
+  get 'tutors' => 'pages#tutors', as: 'tutors'
 
+  get 'book' => 'pages#book', as: 'book'
+
+  get 'payPage' => 'pages#payPage', as: 'payPage'
+
+  get 'payAfter' => 'pages#payAfter', as: 'payAfter'
 
   #resource route
 end

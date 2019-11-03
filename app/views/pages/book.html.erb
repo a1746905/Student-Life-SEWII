@@ -1,0 +1,52 @@
+<div class="sewii sidebar">
+	<div class="sewii image"><%= image_tag 'sewii.jpg', alt: 'Software Engineering Workshop II' %></div>
+	<h2>Software Engineering Workshop II</h2>
+	<div class="sewii info">920_COMP_SCI_2206<br/>2019 Semester 2</div>
+	<div class="sewii links">
+		<%= link_to "Home", sewii_path %>
+		<a href="#">Announcements</a>
+		<a href="#">Modules</a>
+		<a href="#">Assignments</a>
+		<a href="#">Grades</a>
+		<a href="#">Echo 360</a>
+		<%= link_to "Tutors", tutors_path %>
+	</div>
+	<div class="sewii posts">
+		<h2>Confirm Booking</h2>
+		<p style="width:75%;margin:0 auto 25px auto;text-align: center;">Once your booking is complete, both you and Alex will receive instant confirmation of the lesson.</p>
+		<div class="sewii post tutor">
+			<p style="text-align: center"><i class="fas fa-user" style="font-size:36px;padding-bottom: 10px;"></i><br/><b>&nbsp;&nbsp;Alex K&nbsp;&nbsp;</b><br/><span style="font-size:125%;color:#f7b801;">&starf; &starf; &starf; &starf;</span></p>
+			<p style="text-align: center;">Please select the details of your lesson below.</p>
+			<select>
+				<option>1 Hour</option>
+				<option>1.5 Hours</option>
+				<option>2 Hours</option>
+				<option>2.5 Hours</option>
+				<option>3 Hours</option>
+			</select>
+			<select>
+				<option>Monday 28th October 2019 (3 available time slots)</option>
+				<option>Tuesday 29th October 2019 (1 available time slot)</option>
+				<option>Wednesday 30th October 2019 (2 available time slots)</option>
+				<option>Thurday 30th October 2019 (2 available time slots)</option>
+				<option>Friday 31st October 2019 (Not available)</option>
+			</select>
+			<select>
+				<option>09:00 AM</option>
+				<option>10:00 AM</option>
+				<option>11:00 AM</option>
+				<option>12:00 PM</option>
+				<option>01:00 PM</option>
+				<option>02:00 PM</option>
+				<option>03:00 PM</option>
+				<option>04:00 PM</option>
+				<option>05:00 PM</option>
+			</select>
+			<select>
+				<option>$10 per hour</option>
+				<option>$25 for 3 hours</option>
+			</select>
+			<p style="text-align: center;padding: 10px 0;"><%= link_to "Book with Alex", book_path %></p>
+		</div>
+	</div>
+</div
