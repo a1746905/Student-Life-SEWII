@@ -1,9 +1,14 @@
-<!--if see all is clicked, display group
-	members as a drop down list with 
-	button see less at the bottom.
-	if the button has not been clicked then only display the 'see all' label-->
-<!-- <p><%= link_to "See All", science_group_members_path %></p>
- -->
+
+<script>
+	function members() {
+		var x = document.getElementById("members");
+		if (x.style.display === "block") {
+			x.style.display = "none";
+		} else {
+			x.style.display = "block";
+		}
+	}
+</script>
 <div class="science sidebar">
 	<div class="science image"><%= image_tag 'science.jpg', alt: 'Cartoon science graphic' %></div>
 	<h2>Science</h2>
@@ -16,35 +21,40 @@
 	</div>
 	<a href="#">View All Posts</a>
 	<a href="#">Contact Moderators</a>
-	<%= link_to "Members", science_group_members_path %>
+	<a onclick="members()" style="cursor:pointer;">Members</a>
+	<div id="members" class="members">
+		Aanya James<br/>Aidan Dunlop<br/>Aleah Morris<br/>Aleena Mcgowan<br/>Aleksander Rogers<br/>Alister Armstrong<br/>Amanda Stokes<br/>Angela Lawrence<br/>Anton Garcia<br/>Ariyan Holman<br/>Aronas Millington<br/>Asha Singh<br/>Asia Johnson<br/>Baran Mccormack<br/>Becky Reed<br/>Bhavik Blaese<br/>Blanche Chester<br/>Bob Walmsley<br/>Bobbie Mullins<br/>Bridie Young<br/>Charmaine Clemons<br/>Chay Mackenz<br/>Chester Thatcher<br/>Ciaran Hills<br/>Clara Curry<br/>Colton Wise<br/>Cristian Cooley<br/>Cynthia Rahman<br/>Deon Clayton<br/>Dionne Wu<br/>Dotty Meyer<br/>Drake Mellor<br/>Duncan Paine<br/>Edna Bowen<br/>Ela Stone<br/>Elis Sellers<br/>Elliott Holmes<br/>Ethan Flowers<br/>Eva Lynn<br/>Fateh Hamer<br/>Geoffrey Martin<br/>Hamaad Christian<br/>Hammad Downs<br/>Harley Velasquez<br/>Hassan Rodrigues<br/>Hughie Snider<br/>Igor Tate<br/>Inaayah Giles<br/>Jason Nixon<br/>Kara Sullivan<br/>Katelin Price<br/>Kendal Alvarez<br/>Kianna Howarth<br/>Leonie Mcconnell<br/>Lorena Patterson<br/>Lori Ochoa<br/>Lucas Gonzales<br/>Lucinda Croft<br/>Luna Talley<br/>Madina Kouma<br/>Maisie Milne<br/>Marco Hurst<br/>Marlene Townsend<br/>Marwah Weston<br/>Micheal Franco<br/>Mikaela Dolan<br/>Morgan Milner<br/>Nathaniel Erickson<br/>Nevaeh Rhodes<br/>Nusaybah Greenaway<br/>Paloma Leal<br/>Pedro Rowland<br/>Primrose Gentry<br/>Ralphy Hartley<br/>Rayan Solomon<br/>Rees Miller<br/>Rickie Glenn<br/>Rochelle Rodgers<br/>Rory Dixon<br/>Rosemary Kennedy<br/>Roshan Mason<br/>Ruby-Leigh Penn<br/>Shanae Deleon<br/>Stacey Keith<br/>Suranne Brook<br/>Taine Pugh<br/>Tazmin Morales<br/>Ted Whitfield<br/>Tiffany Turnbull<br/>Tommie Pitts<br/>Tyrique Manning<br/>Tyson Salter<br/>Veer Whitworth<br/>Viaan Murphy<br/>Vladimir Horner<br/>Warwick Cornish<br/>Wesley Hughes<br/>Wilbur Merritt<br/>Winnie Ireland<br/>Yousif Grainger
+	</div>
 	<div class="science posts">
-	<div class="science post">
-		<div class="science user"><i class="far fa-smile icon"></i><br/>Michelle</div>
-		<textarea placeholder="What would you like to say?"></textarea>
-		<button>Post</button>
-	</div>
-	<div class="science post">
-		<div class="science user"><i class="far fa-smile icon"></i><br/>Lachlan</div>
-		<div class="science content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur nibh nec ante dapibus ultrices.</div>
-		<div class="science like">
-			<button>Like</button>
-			<button>Report</button>
+		<h3>Welcome to the Science group!</h3>
+		<div class="science post">
+			<div class="science user"><i class="far fa-smile icon"></i><br/>Michelle</div>
+			<textarea placeholder="What would you like to say?"></textarea>
+			<button>Post</button>
 		</div>
-	</div>
-	<div class="science post">
-		<div class="science user"><i class="far fa-smile icon"></i><br/>Shameen</div>
-		<div class="science content">Phasellus velit diam, efficitur in lacus a, placerat bibendum est. Mauris purus sapien, volutpat a ante in, sodales ullamcorper velit. Quisque interdum justo maximus, aliquet nibh id, scelerisque lacus.</div>
-		<div class="science like">
-			<button>Like</button>
-			<button>Report</button>
+		<div class="science post">
+			<div class="science user"><i class="far fa-smile icon"></i><br/>Lachlan</div>
+			<div class="science content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur nibh nec ante dapibus ultrices.</div>
+			<div class="science like">
+				<button>Like</button>
+				<button>Report</button>
+			</div>
 		</div>
-	</div>
-	<div class="science post">
-		<div class="science user"><i class="far fa-smile icon"></i><br/>Ben</div>
-		<div class="science content">Sed ultricies, mi ut condimentum aliquam, nisl dolor posuere urna, tempor vestibulum ex orci egestas dui. Pellentesque vel bibendum velit. Nunc vel metus hendrerit, vulputate augue ut, placerat odio. Vivamus id euismod sem, id consequat mauris. Maecenas mattis nunc quis velit euismod, eu dignissim lacus ullamcorper. Suspendisse commodo euismod sapien, accumsan efficitur libero accumsan in. Cras mattis turpis placerat eleifend cursus. Quisque rutrum dignissim nunc.</div>
-		<div class="science like">
-			<button>Like</button>
-			<button>Report</button>
+		<div class="science post">
+			<div class="science user"><i class="far fa-smile icon"></i><br/>Shameen</div>
+			<div class="science content">Phasellus velit diam, efficitur in lacus a, placerat bibendum est. Mauris purus sapien, volutpat a ante in, sodales ullamcorper velit. Quisque interdum justo maximus, aliquet nibh id, scelerisque lacus.</div>
+			<div class="science like">
+				<button>Like</button>
+				<button>Report</button>
+			</div>
+		</div>
+		<div class="science post">
+			<div class="science user"><i class="far fa-smile icon"></i><br/>Ben</div>
+			<div class="science content">Sed ultricies, mi ut condimentum aliquam, nisl dolor posuere urna, tempor vestibulum ex orci egestas dui. Pellentesque vel bibendum velit. Nunc vel metus hendrerit, vulputate augue ut, placerat odio. Vivamus id euismod sem, id consequat mauris. Maecenas mattis nunc quis velit euismod, eu dignissim lacus ullamcorper. Suspendisse commodo euismod sapien, accumsan efficitur libero accumsan in. Cras mattis turpis placerat eleifend cursus. Quisque rutrum dignissim nunc.</div>
+			<div class="science like">
+				<button>Like</button>
+				<button>Report</button>
+			</div>
 		</div>
 	</div>
 </div>

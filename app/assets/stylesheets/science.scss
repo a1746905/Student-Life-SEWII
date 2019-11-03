@@ -68,16 +68,22 @@
 .science.posts {
 	top:0;
 	left:300px;
-	width:100%;
 	height:100%;
 	padding:40px;
 	position:absolute;
 }
 
+.science h3 {
+	width:500px;
+	margin:0 0 25px 0;
+	font-size:26px;
+	text-align:center;
+}
+
 .science.post {
 	width:500px;
 	padding:10px;
-	margin:0 0 35px 0;
+	margin:0 0 25px 0;
 	display:flex;
 	border:1px solid #eee;
 	border-radius:15px;
@@ -119,4 +125,21 @@
 .like button {
 	min-width:60px;
 	margin:0 0 5px 0;
+}
+
+#members {
+	display:none;
+}
+
+.members {
+	width:230px;
+	height:100px;
+	padding:10px;
+	margin:0 auto;
+	overflow:auto;
+	font-size:15px;
+	line-height:150%;
+	text-align:center;
+	transition:.5s;
+	border:2px solid #eee;
 }
