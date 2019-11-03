@@ -1,22 +1,61 @@
 <h1><%= @title %></h1>
 
-<h2><b> Group Portal: </b></h2>
+<div class="out grid">
+	<div class="out box">
+		<h2>Groups Portal</h2>
+		<div class="left grid">
+			<div class="left box" style="background:#5bc0eb;">
+				<h3>Science</h3>
+				<p><i>Science enthusiasts galore!</i>
+				<br/>284 members &middot; 3 new posts</p>
+				<%= link_to "View Group", science_path %>
+			</div>
+			<div class="left box" style="background:#f7b801;">
+				<h3>Physics Phanatics</h3>
+				<p><i>For Physics lovers <3</i>
+				<br/>180 members &middot; 1 new posts</p>
+				<a href="#">View Group</a>
+			</div>
+			<div class="left box" style="background:#e55934;">
+				<h3>Marvel Fans</h3>
+				<p><i>Marvel > DC forever!!</i>
+				<br/>76 members &middot; 0 new posts</p>
+				<a href="#">View Group</a>
+			</div>
+			<div class="left box" style="background:#00A6A6;">
+				<h3>Uni Minecraft Server 8)</h3>
+				<p><i>OUR UNI ... AS A SERVER</i>
+				<br/>102 members &middot; 4 new posts</p>
+				<a href="#">View Group</a>
+			</div>
+			<div class="left box" style="background:#eee;">
+				<span><a href="#"><i class="fas fa-search"></i>&nbsp;&nbsp;Explore more groups ...</a></span>
+			</div>
+		</div>
+	</div>
+	<div class="out box">
+		<h2>Latest News on Campus</h2>
+		<div class="right grid">
+			<div class="right box">
+				<%= image_tag 'tax.jpg', alt: 'Coins next to House' %>
+				<div class="info"><h3>Land tax debate: wholesale reform needed</h3>
+				<p>A new report from University of Adelaide economists argues that the South Australian Government should consider wholesale reform to land tax.</p>
+				<a href="#">Read more</a></div>
+			</div>
+			<div class="right box">
+				<%= image_tag 'ingenuity.jpg', alt: 'Boy holding VR device' %>
+				<div class="info"><h3>Showcasing our technology future: Ingenuity 2019</h3>
+				<p>More than 300 innovative projects exploring technology advances and solutions for our future society will be on show at the University of Adelaide’s Ingenuity 2019.</p>
+				<a href="#">Read more</a></div>
+			</div>
+			<div class="right box">
+				<%= image_tag 'guitar.jpg', alt: 'Boy holding VR device' %>
+				<div class="info"><h3>Students perform six-hour Guitarathon</h3>
+				<p>Classical guitar students from the University of Adelaide's Elder Conservatorium of Music will embark on a six-hour performance marathon. In its third year the successful event will kick off at 12.00 pm, Sunday 3 November in Elder Hall.</p>
+				<a href="#">Read more</a></div>
+			</div>
 
-<h3><b><u>Science</u></b></h3>
-<p>3 new posts</p>
-<p><b><i><%= link_to "Go to Group", science_path%></i></b></p>
+		</div>
+	</div>
 
-<h3><b><u>Sample Group 2</u></b></h3>
-<p>3 new posts</p>
-<p><b><i>Go to Group</i></b></p>
-
-<h3><b><u>Sample Group 3</u></b></h3>
-<p>3 new posts</p>
-<p><b><i>Go to Group</i></b></p>
-
-<h3><b><u>Sample Group 4</u></b></h3>
-<p>3 new posts</p>
-<p><b><i>Go to Group</i></b></p>
-
-<!--The design in group task 2 has this on the left side of the page but since the drop down menu is being moved to the left so that it collapses from the 3 line button, place this on the right side of the page-->
-<h3><u>Latest news on campus:</u></h3>
+</div>
