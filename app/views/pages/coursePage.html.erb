@@ -1,11 +1,40 @@
-<h2><b><%= link_to "SOFTWARE ENGINEERING WORKSHOP II", sewii_path%></b></h2>
-<p>3920_COMP_SCI_2206<br \>2019 Semester 2</p>
-<p><br \></p>
+<h1>Courses</h1>
 
-<h2><b>DIGITAL ELECTRONICS</b></h2>
-<p>3920_ELEC_ENG_X_0003<br \>2019 Semester 2</p>
-<p><br \></p>
+<div class="courses grid">
+	
+	<div class="box">
+		<%= link_to sewii_path do %>
+		<%= image_tag 'sewii.jpg', alt: 'Software Engineering Workshop II' %>
+		<p>
+			<b>Software Engineering Workshop II</b><br/>
+			3920_COMP_SCI_2206<br/>
+			2019 Semester 2
+		</p>
+		<% end %>
+	</div>
 
-<h2><b>INTRO SOFTWARE ENGINEERING</b></h2>
-<p>3920_COMP_SCI_x_0020<br \>2019 Semester 2</p>
-
+	<div class="box">
+		<%= image_tag 'de.jpg', alt: 'Digital Electronics' %>
+		<p>
+			<b>Digital Electronics</b><br/>
+			3920_ELEC_ENG_X_0003<br/>
+			2019 Semester 2
+		</p>
+	</div>
+	<div class="box">
+		<%= image_tag 'intro.jpg', alt: 'Introduction to Software Engineering' %>
+		<p>
+			<b>Introduction to Software Engineering</b><br/>
+			3920_COMP_SCI_X_0020<br/>
+			2019 Semester 2
+		</p>
+	</div>
+	<div class="box">
+		<%= image_tag 'cs.jpg', alt: 'Computer Systems' %>
+		<p>
+			<b>Computer Systems</b><br/>
+			3920_COMP_SCI_X_0001<br/>
+			2019 Semester 2
+		</p>
+	</div>
+</div>

@@ -24,10 +24,11 @@ html { box-sizing: border-box; }
 body {
 	margin:0;
 	font-family:'Roboto',sans-serif;
+	line-height:120%;
 }
 
 a {
-	color:#005b9c;
+	color:#2b1fb4;
 	text-decoration:none;
 }
 
@@ -92,6 +93,7 @@ a:hover {
 
 .nav_top .open { cursor:pointer; } /* hamburger icon */
 #main { transition:margin-left .5s; } /* site contents that move */
+#body { padding:0px 10px; } /* refers to "yield" */ 
 
 /* navigation - top */
 
@@ -99,6 +101,7 @@ a:hover {
 	width:100%;
 	height:60px;
 	padding:10px;
+	line-height:100%;
 	background-color:#0b082e;
 }
 
@@ -135,12 +138,12 @@ a:hover {
 	border:none;
 }
 
-.nav_top .help {
-	margin:2px 15px;
+.nav_top .question {
+	margin:5px 15px;
 	font-size:30px;
 }
 
-.nav_top a:hover.help {
+.nav_top a:hover.question {
 	background-color:transparent;
 	color:#ccc;
 }
@@ -148,7 +151,7 @@ a:hover {
 /* navigation - search */
 
 .nav_top .search {
-	margin:5px 0 0 30px;
+	margin:5px 0 0 27px;
 	float:left;
 }
 
@@ -174,6 +177,12 @@ a:hover {
 	-webkit-transition: all .2s ease-in-out;
 	-o-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
+}
+
+@media(max-width:1000px) {
+	.nav_top .search {
+		display:none;
+	}
 }
 
 /* navigation - drop (user) */
