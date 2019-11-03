@@ -1,0 +1,38 @@
+.pay {
+	width:600px;
+	margin:0 auto;
+	text-align: center;
+	line-height:150%;
+}
+
+.pay a {
+	width:90px;
+	padding:10px 12px;
+	margin:0 auto 5px auto;
+	display: block;
+	background:#0b082e;
+	font-size:18px;
+	border-radius:10px;
+	color:#fff;
+}
+
+.pay h2 {
+	margin-bottom:10px;
+}
+
+.pay select {
+	background:transparent;
+	border:1px solid #eee;
+}
+
+.pay input[type=text] {
+	width:150px;
+	font-size:14px;
+	padding:10px;
+	display: block;
+	margin:0 auto;
+	text-align: center;
+	border-radius:12px;
+	border:1px solid #eee;
+}
+

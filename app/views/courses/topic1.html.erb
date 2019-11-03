@@ -1,16 +1,24 @@
-<h3><b>Notes</b></h3>
-<h1>Topic 1: Introduction to course</h1>
-<p><br \><br \> Insert powerpoint here <br \> <br \></p>
-<p><%= link_to "Download SEWS2 L0:Introduction to Course 2019.pdf", download_path%> (3.63 MB)</p>
-
-<!--Sidebar-->
-<ul>
-	<li>Home</li>
-	<li>Announcements</li>
-	<li>Modules</li>
-	<li>Assignments</li>
-	<li>Grades</li>
-	<li>Echo 360</li>
-	<li>Help</li>
-</ul>
-
+<div class="sewii sidebar">
+	<div class="sewii image"><%= image_tag 'sewii.jpg', alt: 'Software Engineering Workshop II' %></div>
+	<h2>Software Engineering Workshop II</h2>
+	<div class="sewii info">920_COMP_SCI_2206<br/>2019 Semester 2</div>
+	<div class="sewii links">
+		<%= link_to "Home", sewii_path %>
+		<a href="#">Announcements</a>
+		<a href="#">Modules</a>
+		<a href="#">Assignments</a>
+		<a href="#">Grades</a>
+		<a href="#">Echo 360</a>
+		<%= link_to "Tutors", tutors_path %>
+	</div>
+	<div class="sewii posts">
+		<h2>Topic 1: Introduction to Course</h2>
+		<div class="sewii post">
+			<embed src="SEWS2_L0_Introduction to Course_2019.pdf" width="465" height="400" type="application/pdf">
+		</div>
+		<div class="sewii post dl">
+			<p><%= link_to "View in a New Tab", "SEWS2_L0_Introduction to Course_2019.pdf", target: '_blank' %></p>
+			<p><%= link_to "Download SEWS2 L0:Introduction to Course 2019.pdf", "SEWS2_L0_Introduction to Course_2019.pdf", download: '' %></p>
+		</div>
+	</div>
+</div>

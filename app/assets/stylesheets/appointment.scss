@@ -1,0 +1,163 @@
+.container {
+	width:100%;
+	position:absolute;
+	display:flex;
+	flex-direction:column;
+}
+
+select {
+	width:200px;
+	font-size:14px;
+	margin:0 auto 40px auto;
+	border:1px solid #eee;
+}
+
+.booking {
+	width:900px;
+	height:425px;
+	padding:10px;
+	margin:0 auto;
+	background:#f1f1f1;
+	border-radius:15px;
+}
+
+.year {
+	color: #0b082e;
+	font-size: 30px;
+	float: right;
+	position: relative;
+	right: 75px;
+	top: 35px;
+	font-weight: bold;
+}
+
+.triangle-left {
+	width:0;
+	height:0;
+	border-top:5px solid transparent;
+	border-right:10px solid #0b082e;
+	border-bottom:5px solid transparent;
+	float:right;
+	position:relative;
+	right:93px;
+	top:40px;
+}
+
+.triangle-right {
+	width:0;
+	height:0;
+	border-top:5px solid transparent;
+	border-left:10px solid #0b082e;
+	border-bottom:5px solid transparent;
+	float:right;
+	position:relative;
+	left:30px;
+	top:40px;
+}
+.triangle-left:hover{
+	border-right: 10px solid#ccc;
+	cursor:pointer;
+}
+.triangle-right:hover{
+	border-left: 10px solid#ccc;
+	cursor:pointer;
+}
+
+.months {
+	color:#aaa;
+	position:relative;
+	left:350px;
+	top:90px;
+	word-spacing:10px;
+}
+
+.month { color: #0b082e; }
+.month-hover:hover { color: #ccc; cursor: pointer; }
+
+.month-line {
+	border:1px solid #0b082e;
+	position:relative;
+	top:90px;
+	width:57%;
+	left:150px;
+}
+
+.days {
+	color:#0b082e;
+	position:relative;
+	font-size:18px;
+	left:355px;
+	top:95px;
+	word-spacing:35px;
+	font-weight:600;
+}
+
+.num-dates {
+  float: right;
+  position: relative;
+  top: 120px;
+  right: 52px;
+  z-index: 1;
+}
+
+.week {
+  margin-bottom: 25px;
+  word-spacing: 52.1px;
+}
+
+.active-day {
+	width:35px;
+	height:35px;
+	border-radius:50%;
+	background-color:#0b082e;
+	position:relative;
+	top:155px;
+	left:431px;
+}
+
+.white { color:#fff; }
+
+.calendar-left {
+	width:300px;
+	height:425px;
+	padding:25px;
+	border-radius:15px 0 0 15px;
+	background-color:#0b082e;
+	position:relative;
+	bottom:100px;
+	right:10px;
+	color:#fff;
+}
+
+.calendar-left h2 {
+	margin:0 0 15px 0;
+}
+
+.times {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.times a {
+	width:75px;
+	padding:5px;
+	margin:0 5px 5px 0;
+	text-align:center;
+	color:#000;
+	background-color:#f1f1f1;
+}
+
+.form { margin:15px 0; }
+.form a { color:#f1f1f1; }
+
+input[type=submit] {
+	font-size:14px;
+	background:#f1f1f1;
+	border-radius:7px;
+}
+
+input[type=submit]:hover {
+	cursor:pointer;
+	background-color:#ccc;
+}

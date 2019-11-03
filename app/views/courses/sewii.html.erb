@@ -1,27 +1,32 @@
-<h2><b>SOFTWARE ENGINEERING WORKSHOP II</b></h2>
-<p>3920_COMP_SCI_2206<br \>2019 Semester 2</p>
-<p><br \></p>
-<h3><b>Course Information</b></h3>
-<p><%= @courseInfo %></p>
-
-<h3><b>Notes</b></h3>
-<p><%= link_to @topic1, topic1_path %><br \></p>
-<p><%= @topic2 %><br \></p>
-<p><%= @topic3 %><br \></p>
-<p><%= @topic4 %><br \></p>
-<p><%= @topic5 %><br \></p>
-
-<h3><b>Tutorials</b></h3>
-<p><%= @tutorials %></p>
-
-<!--Sidebar-->
-<ul>
-	<li>Home</li>
-	<li>Announcements</li>
-	<li>Modules</li>
-	<li>Assignments</li>
-	<li>Grades</li>
-	<li>Echo 360</li>
-	<li>Help</li>
-</ul>
-
+<div class="sewii sidebar">
+	<div class="sewii image"><%= image_tag 'sewii.jpg', alt: 'Software Engineering Workshop II' %></div>
+	<h2>Software Engineering Workshop II</h2>
+	<div class="sewii info">920_COMP_SCI_2206<br/>2019 Semester 2</div>
+	<div class="sewii links">
+		<%= link_to "Home", sewii_path %>
+		<a href="#">Announcements</a>
+		<a href="#">Modules</a>
+		<a href="#">Assignments</a>
+		<a href="#">Grades</a>
+		<a href="#">Echo 360</a>
+		<%= link_to "Tutors", tutors_path %>
+	</div>
+	<div class="sewii posts">
+		<h2>Welcome to Software Engineering Workshop II!</h2>
+		<div class="sewii post">
+			<b>Course Information</b>
+			<p><%= @courseInfo %></p>
+		</div>
+		<div class="sewii post">
+			<b>Notes</b>
+			<p><%= link_to @topic1, topic1_path %>
+			<br/><%= link_to @topic2 %>
+			<br/><%= link_to @topic3 %>
+			<br/><%= link_to @topic4 %>
+			<br/><%= link_to @topic5 %>
+			<br/><%= link_to @topic6 %>
+			<br/><%= link_to @topic7 %>
+			<br/><%= link_to @topic8 %></p>
+		</div>
+	</div>
+</div>
